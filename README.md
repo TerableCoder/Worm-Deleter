@@ -1,8 +1,8 @@
-# Fish-Deleter
-Automatically deletes fish filets from your inventory when its amount becomes over 9000
+# Worm-Deleter
+Automatically deletes Worm from your inventory when its amount becomes over 250
 
 ### Proxy commands:
-* **fd** - Toggles the module off/on
+* **wd** - Toggles the module off/on
 
 ### Info:
-Deletes 1k filets when triggered
+Deletes 200 Worms when triggered
