@@ -6,3 +6,5 @@ Automatically deletes Worm from your inventory when its amount becomes over 250
 
 ### Info:
 Deletes 200 Worms when triggered
+
+#Base code from Lambda11
