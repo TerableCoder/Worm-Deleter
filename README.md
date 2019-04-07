@@ -1,4 +1,4 @@
-# Worm-Deleter
+# Worm-Deleter dosen't work, because ? dunno
 Automatically deletes Worm from your inventory when its amount becomes over 250
 
 ### Proxy commands:
