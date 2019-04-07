@@ -1,5 +1,8 @@
-
-const WormId = 206005;206006;206007;206008;206009;
+const WormId = 206005;
+const WormId = 206006;
+const WormId = 206007;
+const WormId = 206008;
+const WormId = 206009;
 
 module.exports = function WormDeleter(mod) {
 	const command = mod.command;
@@ -22,12 +25,12 @@ module.exports = function WormDeleter(mod) {
 		
 		for (var i = 0; i < event.items.length; i++)
 		{
-			if (event.items[i].id === WormId && event.items[i].amount > 250)
+			if (event.items[i].id === WormId && event.items[i].amount > 20)
 			{
 				mod.toServer('C_DEL_ITEM', 2, {
 					gameId: myGameId,
 					slot: (event.items[i].slot - 40),
-					amount: 200
+					amount: 10
 				});
 				break;
 			}

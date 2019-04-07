@@ -1,0 +1,13 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Worm-deleter",
+    "author": "PsykoDev",
+    "description": "",
+    "version": "1.0",
+    "options": {
+        "niceName": "Worm-deleter",
+        "guiName": "Worm-deleter"
+    },
+    "servers": ["https://raw.githubusercontent.com/PsykoDev/Worm-Deleter/master/"],
+    "supportUrl": "https://github.com/PsykoDev/Worm-Deleter/issues"
+}
