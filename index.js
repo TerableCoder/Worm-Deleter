@@ -1,6 +1,9 @@
 module.exports = function WormDeleter(mod) {
-	const WormId = [206005, 206006, 206007, 206008, 206009];
+	
+	const WormId = [206005, 206006, 206007, 206008, 206009]
+	
 	const command = mod.command;
+	
 	let enabled = true;
 	let myGameId = 0n;
 		
