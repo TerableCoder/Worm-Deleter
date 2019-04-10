@@ -1,13 +1,15 @@
 {
-    "disableAutoUpdate": false,
+    "disableAutoUpdate": true,
     "name": "Worm-deleter",
-    "author": "PsykoDev",
-    "description": "",
+    "author": "TerableCoder",
+    "description": "Deletes Anglerworms",
     "version": "1.0",
     "options": {
         "niceName": "Worm-deleter",
-        "guiName": "Worm-deleter"
+        "guiName": "Worm-deleter",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
     },
-    "servers": ["https://raw.githubusercontent.com/PsykoDev/Worm-Deleter/master/"],
-    "supportUrl": "https://github.com/PsykoDev/Worm-Deleter/issues"
+    "servers": ["https://raw.githubusercontent.com/TerableCoder/Worm-Deleter/master/"]
 }

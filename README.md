@@ -1,10 +1,11 @@
-# Worm-Deleter dosen't work, because ? dunno
-Automatically deletes Worm from your inventory when its amount becomes over 250
+# Worm-Deleter
+Automatically deletes Worms from your inventory when worm amount becomes >= X, X's default value is 10
 
 ### Proxy commands:
-* **wd** - Toggles the module off/on
+* **wd** - Toggles the module off/on, default off
+* **wd X** - Changes X, Example: wd 10
 
-### Info:
-Deletes 200 Worms when triggered
 
-#Base code from Lambda11
+Base code from Lambda11 (hosted by PsykoDev)
+
+Fixed and Upgraded by TerableCoder

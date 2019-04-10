@@ -1,11 +1,13 @@
 {
     "files": {
-        "index.js": "610cc881f98413c6aa1c7229f87c6beeda43553fa4c5dc53bf4259b514a0eef6",
-        "module.json": "632e8ae936ebc7e300590b4c7671c3e4cab3279ee49229d7500e2cb054ca3095"
+		"index.js": "58eaa7de125d342f70bd23070edd10de6954b8a6326a5cddee4e2418373c0ead",
+		"module.json": "1225e2b6a57168aba90479e7ef5c61e9b607db05fe360715383512b7603eb5e1",
+		"README.md": "d1c5c546bd529f60a81937b121da2dbdd3e87f6524581fa609dedb374212afae",
+		"settings_migrator.js": "fe278808ae3df3a8f37b5f39292c0f4b0e4e8fdbf39bc7a34b52eec7b6dd4b57"
     },
     "defs": {
         "C_DEL_ITEM": 2,
-		"S_INVEN": [17,18]
-        "S_LOGIN": 12,
+		"S_INVEN": 18,
+        "S_LOGIN": 12
     }
 }
