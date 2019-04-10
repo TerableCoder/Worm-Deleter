@@ -20,6 +20,7 @@ module.exports = function WormDeleter(mod) {
 			command.message(`Worm-Deleter is now: ${mod.settings.enabled ? "enabled" : "disabled"}.`);
 		},
 		$default(y){
+			y = parseInt(y);
 			if(!y || isNaN(y) || y < 1) {
 				command.message(`${y} is an invalid argument. Type something like: wd 10`);
 			} else{
